@@ -88,7 +88,7 @@
 
           <div class="tripType">
             <label for="select-passenger">Select Passenger</label>
-            <select name="select-passenger" id="select-passenger">
+            <select name="select-passenger" id="select-passenger" class="makemytrip">
               <option selected>Trip type: Return trip</option>
               <option value="1 Pass">1 Passenger</option>
               <option value="2 Pass">2 Passenger</option>
@@ -98,20 +98,19 @@
             </select>
 
             <label for="select-passenger">Select Passenger</label>
-            <select name="select-passenger" id="select-passenger">
+            <select name="select-passenger" id="select-passenger" class="makemytrip">
               <option selected>Ticket dass: Economy Direct fights only include nearby airports</option>
               <option value="1 Pass">1 Passenger</option>
               <option value="2 Pass">2 Passenger</option>
               <option value="3 Pass">3 Passenger</option>
               <option value="4 Pass">4 Passenger</option>
               <option value="5 Pass">5 Passenger</option>
-            </select>
-
-            <input type="checkbox" style="height:10px;width:10px;">
-            Direct Flights Only
-            <input type="checkbox" style="height: 10px; width: 10px; margin-left: 10px;">
-            Include Nearby Airports
-          </div>
+              <div class="checkbox">
+                <input type="checkbox" style="height:10px;width:10px;">
+                Direct Flights Only
+                <input type="checkbox" style="height: 10px; width: 10px; margin-left: 10px;">
+                Include Nearby Airports
+              </div>
 
     </form>
   </section>
@@ -178,72 +177,223 @@
   <!-- Destination Section Start -->
   <section class="destination">
     <h2>POPULAR DESTINATION</h2>
-    <div>
-      <ul>
-        <li>
+    <ul>
+      <li>
+        <div>
           <img src="./assets/images/1.jpg" alt="Image">
-          <h3>$999 Rome, Florence & Venice 9-Night Vacation w/Air</h3>
+        </div>
+        <div class="content">
+          <h3><span>$999</span> Rome, Florence & Venice 9-Night Vacation w/Air</h3>
           <p>
             This is the lowest price we've seen in four years for a nine-night
           </p>
-        </li>
-        <li>
+        </div>
+      </li>
+      <li>
+        <div>
           <img src="./assets/images/2.jpg" alt="Image">
-          <h3>$1699 Australia: Sydney & Fij Vacation w/A Save $550</h3>
+        </div>
+        <div class="content">
+          <h3><span>$1699</span> Australia: Sydney & Fij Vacation w/A <span>Save $550</span></h3>
           <p>
             This is the lowest price we've seen in four years for a nine-night Lorem ipsum dolor sit.
           </p>
-        </li>
-        <li>
-          <img src="./assets/images/3.jpg" alt="Image">
-          <h3>$1099 Greek Islands B-Night Vacation w/Ai Save $1000 </h3>
+        </div>
+      </li>
+      <li>
+        <div> <img src="./assets/images/3.jpg" alt="Image"></div>
+        <div class="content">
+          <h3><span>$1099</span> Greek Islands B-Night Vacation w/Ai <span>Save $1000</span> </h3>
           <p>
             This is the lowest price we've seen
             in four years for a nine-night
           </p>
-        </li>
-        <li>
+        </div>
+      </li>
+      <li>
+        <div>
           <img src="./assets/images/4.jpg" alt="Image">
-          <h3>$899 beland & Germany 6-Night</h3>
+        </div>
+        <div class="content">
+          <h3><span>$899</span> beland & Germany 6-Night</h3>
           <p>
             This is the lowest price we've seen
             in four years for a nine night Lorem ipsum dolor sit.
           </p>
-        </li>
-        <li>
+        </div>
+      </li>
+      <li>
+        <div>
           <img src="./assets/images/5.jpg" alt="Image">
-          <h3>$1299 Morocco 4-Star Escorted Vacation w/Al Save $1600</h3>
+        </div>
+        <div class="content">
+          <h3><span>$1299</span> Morocco 4-Star Escorted Vacation w/Al <span>Save $1600</span></h3>
           <p>
             This is the lowest price we've seen
             in four years for a nine-night
           </p>
-        </li>
-        <li>
+        </div>
+      </li>
+      <li>
+        <div>
           <img src="./assets/images/6.jpg" alt="Image">
-          <h3>5639 Cabo All-Inclusive Beach Getaway w/A, Save $250</h3>
+        </div>
+        <div class="content">
+          <h3><span>5639</span> Cabo All-Inclusive Beach Getaway w/A, <span>Save $250</span></h3>
           <p>
             This is the lowest price we've seen
             in four years for a nine-night
           </p>
-        </li>
-        <li>
+        </div>
+      </li>
+      <li>
+        <div>
           <img src="./assets/images/7.jpg" alt="Image">
-          <h3>$2299 New Zealand Multi-City Trip w/Tours & Car Rental</h3>
+        </div>
+        <div class="content">
+          <h3><span>$2299</span> New Zealand Multi-City Trip w/Tours & Car Rental</h3>
           <p>
             This is the lowest price we've in four years for a nine-night
           </p>
-        </li>
-        <li>
+        </div>
+      </li>
+      <li>
+        <div>
           <img src="./assets/images/8.jpg" alt="Image">
-          <h3>31542 & up Turkey - TripA Guided Tours & Hotels</h3>
+        </div>
+        <div class="content">
+          <h3><span>31542</span> & up Turkey - TripA Guided Tours & Hotels</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit officia, unde consequuntur
+            This is the lowest price we've seen in four years for a nine night
           </p>
-        </li>
-      </ul>
-    </div>
+        </div>
+      </li>
+    </ul>
   </section>
   <!-- /Destination Section End -->
+
+  <!-- Estimate Section Start -->
+  <section class="estimate">
+    <h2>GET A QUICK ESTIMATE!</h2>
+    <h3>GET A PROFFESIONAL HELP</h3>
+    <hr width="55px">
+    <form action="post" class="form">
+      <label for="purpose">purpose</label>
+      <select name="purpose" id="purpose">
+        <option value="travel">Travel Purpose</option>
+        <option value="business">Business</option>
+        <option value="medical">Medical</option>
+        <option value="sport">Sport</option>
+      </select>
+      <label for="tdate">Travel Date</label>
+      <input type="date" name="date" id="date">
+      <label for="purpose">purpose</label>
+      <select name="purpose" id="purpose">
+        <option value="travel">Number of People</option>
+        <option value="business">Business</option>
+        <option value="medical">Medical</option>
+        <option value="sport">Sport</option>
+      </select>
+      <label for="tdate">Travel Date</label>
+      <input type="email" name="email" id="email" placeholder="Your Email" style="text-align: center;">
+      <label for="calulate">CALULATE NOW</label>
+      <input class="btn" type="submit" value="Calculate Now">
+    </form>
+    <img class="images" src="./assets/images/rome.png" alt="rome image">
+  </section>
+  <!-- /Estimate Section End -->
+
+  <!-- Blog Section Start -->
+  <section class="blog">
+    <h2>LATEST BLOG</h2>
+    <p>
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+    </p>
+    <div class="blog-content">
+      <div>
+        <img src="./assets/images/blog1.jpeg" alt="blog1">
+      </div>
+      <div>
+        <p>Jan 16, 2023</p>
+        <h3>10 THINGS TODO BEFORE TRAVEL</h3>
+        <hr size="5px" color="orange" width="42px">
+        <p class="bdr">&nbsp; &nbsp; &nbsp; &nbsp;</p>
+        <p>
+          Consectetur adipisicing elit, sed do eiusmod tempor Incididunt ut labore et dolore magna aliqua enimad minim
+          veniam, quis nostrud...
+        </p>
+      </div>
+      <div>
+        <img src="./assets/images/blog2.jpeg" alt="blog2">
+      </div>
+      <div>
+        <p>Jan 23, 2023</p>
+        <h3>SAY NO TO LAZY LIFE</h3>
+        <hr size="5px" color="black" width="42px">
+        <p class="bdr">&nbsp; &nbsp; &nbsp; &nbsp;</p>
+        <p>
+          Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ema minim
+          veniam, quis nostrud...
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- /Blog Section End -->
+  <!-- Bottom Section Start -->
+  <section class="bottom">
+    <h2>Top Countries</h2>
+   
+    <ul>
+      <li>Fights to United States</li>
+      <li>Fights to United Kingdom</li>
+      <li>Flights to Spain</li>
+      <li>Fights to Thailand</li>
+      <li>Fights to India</li>
+      <li>Flights to Italy</li>
+      <li>Fights to Germany</li>
+      <li>Fights to Denmark</li>
+      <li>Fights to France</li>
+      <li>Fights to Australia</li>
+    </ul>
+
+    <h2>Top Cities</h2>
+    <ul>
+      <li>Fights to London, United Kingdom</li>
+      <li>Fights to New York, United States</li>
+      <li>9 Fights to Bangkok, Thailand</li>
+      <li>Fights to Copenhagen, Denmark</li>
+      <li>Fights to Orlando, United States</li>
+      <li>Fights to Paris, France</li>
+      <li>Fights to Dubai, United Arab Emirates</li>
+      <li>Fights to Singapore, Singapore</li>
+      <li>Fights to Istanbul Turkey</li>
+      <li>Fights to Hong Kong Hong Kong</li>
+    </ul>
+
+    <h2>International Sites</h2>
+    <ul>
+      <li>Allige Nybiletter</li>
+      <li>Cheap Flights</li>
+      <li>It Flights</li>
+      <li>Cheap Fights</li>
+      <li>Vuelos baratos</li>
+      <li>vol pas cher</li>
+      <li>voli low cost</li>
+    </ul>
+
+    <ul>
+      <li>voli low cost</li>
+      <li>lig flygresor</li>
+      <li>Goedkope vliegtickets</li>
+      <li>Voos baratos</li>
+      <li>Adipisicing</li>
+      <li>Flygresor</li>
+    </ul>
+
+
+  </section>
+  <!-- /Bottom Section End -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
   <script src="./assets/js/index.js"></script>
 </body>
