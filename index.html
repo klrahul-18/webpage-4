@@ -64,7 +64,7 @@
           <input type="text" name="origin-city" id="origin-city" placeholder="Enter Origin City">
           <span><i class="fa-solid fa-right-left" style="color: #fff; margin-right: 5px;"></i></span>
 
-          <label for="Destination-City">Origin-City</label>
+          <label for="Destination-City">Destination-City</label>
           <input type="text" name="Destination-City" id="Destination-City" placeholder="Enter Destination City">
 
           <label for="trave-start-date">trave-start-date</label>
@@ -86,40 +86,32 @@
             <button type="submit" class="smt">Search</button>
           </div>
 
-          <div class="tripType">
-            <label for="select-passenger">Select Passenger</label>
-            <select name="select-passenger" id="select-passenger" class="makemytrip">
-              <option selected>Trip type: Return trip</option>
-              <option value="1 Pass">1 Passenger</option>
-              <option value="2 Pass">2 Passenger</option>
-              <option value="3 Pass">3 Passenger</option>
-              <option value="4 Pass">4 Passenger</option>
-              <option value="5 Pass">5 Passenger</option>
-            </select>
+          <label for="select-passenger">Trip type: Return trip</label>
+          <select name="Trip type: Return trip" id="Trip type: Return trip" class="ticket-dass">
+            <option selected>Trip type: Return trip</option>
+            <option value="1 Pass">1 Passenger</option>
+            <option value="2 Pass">2 Passenger</option>
+            <option value="3 Pass">3 Passenger</option>
+            <option value="4 Pass">4 Passenger</option>
+            <option value="5 Pass">5 Passenger</option>
+          </select>
 
-            <label for="select-passenger">Select Passenger</label>
-            <select name="select-passenger" id="select-passenger" class="makemytrip">
-              <option selected>Ticket dass: Economy Direct fights only include nearby airports</option>
-              <option value="1 Pass">1 Passenger</option>
-              <option value="2 Pass">2 Passenger</option>
-              <option value="3 Pass">3 Passenger</option>
-              <option value="4 Pass">4 Passenger</option>
-              <option value="5 Pass">5 Passenger</option>
-              <div class="checkbox">
-                <input type="checkbox" style="height:10px;width:10px;">
-                Direct Flights Only
-                <input type="checkbox" style="height: 10px; width: 10px; margin-left: 10px;">
-                Include Nearby Airports
-              </div>
+          <label for="Ticket dass: Economy">Ticket dass: Economy</label>
+          <select name="Ticket dass: Economy" id="Ticket dass: Economy" class="ticket-dass">
+            <option selected>Ticket dass: Economy</option>
+            <option value="1 Pass">1 Passenger</option>
+            <option value="2 Pass">2 Passenger</option>
+            <option value="3 Pass">3 Passenger</option>
+            <option value="4 Pass">4 Passenger</option>
+            <option value="5 Pass">5 Passenger</option>
 
+
+            <input type="checkbox" style="height:10px;width:10px;" class="checkbox">
+            <span style="color: #fff;">Direct Flights Only</span>
+            <input type="checkbox" style="height: 10px; width: 10px; margin-left: 10px;" class="checkbox">
+            <span style="color: #fff;">Include Nearby Airports</span>
+        </div>
     </form>
-  </section>
-  </div>
-  </div>
-  <div>
-
-  </div>
-  </form>
   </section>
   <!-- /Banner Section End  -->
 
@@ -275,8 +267,10 @@
   <!-- Estimate Section Start -->
   <section class="estimate">
     <h2>GET A QUICK ESTIMATE!</h2>
-    <h3>GET A PROFFESIONAL HELP</h3>
-    <hr width="55px">
+    <h3>GET A PROFFESIONAL HELP
+      <hr width="55">
+    </h3>
+
     <form action="post" class="form">
       <label for="purpose">purpose</label>
       <select name="purpose" id="purpose">
@@ -340,60 +334,278 @@
     </div>
   </section>
   <!-- /Blog Section End -->
-  <!-- Bottom Section Start -->
-  <section class="bottom">
-    <h2>Top Countries</h2>
-   
-    <ul>
-      <li>Fights to United States</li>
-      <li>Fights to United Kingdom</li>
-      <li>Flights to Spain</li>
-      <li>Fights to Thailand</li>
-      <li>Fights to India</li>
-      <li>Flights to Italy</li>
-      <li>Fights to Germany</li>
-      <li>Fights to Denmark</li>
-      <li>Fights to France</li>
-      <li>Fights to Australia</li>
-    </ul>
 
-    <h2>Top Cities</h2>
-    <ul>
-      <li>Fights to London, United Kingdom</li>
-      <li>Fights to New York, United States</li>
-      <li>9 Fights to Bangkok, Thailand</li>
-      <li>Fights to Copenhagen, Denmark</li>
-      <li>Fights to Orlando, United States</li>
-      <li>Fights to Paris, France</li>
-      <li>Fights to Dubai, United Arab Emirates</li>
-      <li>Fights to Singapore, Singapore</li>
-      <li>Fights to Istanbul Turkey</li>
-      <li>Fights to Hong Kong Hong Kong</li>
-    </ul>
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="topfoot">
+      <div class="contry">
+        <h3>Top Countries</h3>
+        <ul>
+          <li><a href="javascript:void()">
+              <i class="fa-solid fa-earth-asia"></i>
+              Fights to <span>United States</span>
+            </a>
+          </li>
+          <li><a href="javascript:void()">
+              <i class="fa-solid fa-earth-asia"></i>
+              Fights to <span>United Kingdom</span>
+            </a>
+          </li>
+          <li><a href="javascript:void()">
+              <i class="fa-solid fa-earth-asia"></i>
+              Flights to <span>Spain</span>
+            </a>
+          </li>
+          <li><a href="javascript:void()">
+              <i class="fa-solid fa-earth-asia"></i>
+              Fights to <span>Thailand</span>
+            </a>
+          </li>
+          <li><a href="javascript:void()">
+              <i class="fa-solid fa-earth-asia"></i>
+              Fights to <span>India</span>
+            </a>
+          </li>
+          <li><a href="javascript:void()">
+              <i class="fa-solid fa-earth-asia"></i>
+              Flights to <span>Italy</span>
+            </a>
+          </li>
+          <li><a href="javascript:void()">
+              <i class="fa-solid fa-earth-asia"></i>
+              Fights to <span>Germany</span>
+            </a>
+          </li>
+          <li><a href="javascript:void()">
+              <i class="fa-solid fa-earth-asia"></i>
+              Fights to <span>Denmark</span>
+            </a>
+          </li>
+          <li><a href="javascript:void()">
+              <i class="fa-solid fa-earth-asia"></i>
+              Fights to <span>France</span>
+            </a>
+          </li>
+          <li><a href="javascript:void()">
+              <i class="fa-solid fa-earth-asia"></i>
+              Fights to <span>Australia</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="city">
+        <h3>Top Cities</h3>
+        <ul>
+          <li><a href="javascriot:void()">
+              <i class="fa-solid fa-location-dot"></i>
+              Fights to <span>London</span> United Kingdom
+            </a>
+          </li>
+          <li><a href="javascriot:void()">
+              <i class="fa-solid fa-location-dot"></i>
+              Fights to <span>New York</span> United States
+            </a>
+          </li>
+          <li><a href="javascriot:void()">
+              <i class="fa-solid fa-location-dot"></i>
+              9 Fights to <span>Bangkok</span> Thailand
+            </a>
+          </li>
+          <li><a href="javascriot:void()">
+              <i class="fa-solid fa-location-dot"></i>
+              Fights to <span>Copenhagen</span> Denmark
+            </a>
+          </li>
+          <li><a href="javascriot:void()">
+              <i class="fa-solid fa-location-dot"></i>
+              Fights to <span>Orlando</span> United States
+            </a>
+          </li>
+          <li><a href="javascriot:void()">
+              <i class="fa-solid fa-location-dot"></i>
+              Fights to <span>Paris</span> France
+            </a>
+          </li>
+          <li><a href="javascriot:void()">
+              <i class="fa-solid fa-location-dot"></i>
+              Fights to <span>Dubai</span> United Arab Emirates
+            </a>
+          </li>
+          <li><a href="javascriot:void()">
+              <i class="fa-solid fa-location-dot"></i>
+              Fights to <span>Singapore</span> Singapore
+            </a>
+          </li>
+          <li><a href="javascriot:void()">
+              <i class="fa-solid fa-location-dot"></i>
+              Fights to <span>Istanbul</span> Turkey
+            </a>
+          </li>
+          <li><a href="javascriot:void()">
+              <i class="fa-solid fa-location-dot"></i>
+              Fights to <span>Hong Kong</span> Hong Kong
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="international">
+        <h3>International Sites</h3>
+        <div>
+          <ul class="inter1">
+            <li>
+              <a href="javascript:void()">
+                <img src="./assets/images/flag.png" alt="flag" width="15px" height="15px">
+                Allige Nybiletter
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void()">
+                <img src="./assets/images/flag.png" alt="flag" width="15px" height="15px">
+                Cheap Flights
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void()">
+                <img src="./assets/images/flag.png" alt="flag" width="15px" height="15px">
+                Flights
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void()">
+                <img src="./assets/images/flag.png" alt="flag" width="15px" height="15px">
+                Cheap Flights
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void()">
+                <img src="./assets/images/flag.png" alt="flag" width="15px" height="15px">
+                Vuelos baratos
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void()">
+                <img src="./assets/images/flag.png" alt="flag" width="15px" height="15px">
+                Vuelos baratos
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void()">
+                <img src="./assets/images/flag.png" alt="flag" width="15px" height="15px">
+                vol pas cher
+              </a>
+            </li>
+          </ul>
+          <div class="inter1">
+            <ul>
+              <li>
+                <a href="javascript:void()">
+                  <img src="./assets/images/flag1.png" alt="flag" width="15px" height="15px">
+                  Voli cow cost
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void()">
+                  <img src="./assets/images/flag1.png" alt="flag" width="15px" height="15px">
+                  Alian flygresor
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void()">
+                  <img src="./assets/images/flag1.png" alt="flag" width="15px" height="15px">
+                  Goedkope vliegtickets
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void()">
+                  <img src="./assets/images/flag1.png" alt="flag" width="15px" height="15px">
+                  Voos baratos
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void()">
+                  <img src="./assets/images/flag1.png" alt="flag" width="15px" height="15px">
+                  Allige nybiletter
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void()">
+                  <img src="./assets/images/flag1.png" alt="flag" width="15px" height="15px">
+                  Cheap Fights
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void()">
+                  <img src="./assets/images/flag1.png" alt="flag" width="15px" height="15px">
+                  Voos baratos
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottomfooter">
+      <img src="./assets/images/bottomlogo.png" alt="bottomlogo" width="40px" height="40px">
+      <div class="footmenu">
+        <ul>
+          <li>
+            <a href="javascript:void()">About</a>
+          </li>
+          <li>
+            <a href="javascript:void()">Jobs</a>
+          </li>
+          <li>
+            <a href="javascript:void()">Press</a>
+          </li>
+          <li>
+            <a href="javascript:void()">Affiliate</a>
+          </li>
+          <li>
+            <a href="javascript:void()">Terms of Use</a>
+          </li>
+          <li>
+            <a href="javascript:void()">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="javascript:void()">Cookies</a>
+          </li>
+          <li>
+            <a href="javascript:void()">Airlines</a>
+          </li>
+          <li>
+            <a href="javascript:void()">Apps</a>
+          </li>
+          <li>
+            <a href="javascript:void()">Helps</a>
+          </li>
+        </ul>
 
-    <h2>International Sites</h2>
-    <ul>
-      <li>Allige Nybiletter</li>
-      <li>Cheap Flights</li>
-      <li>It Flights</li>
-      <li>Cheap Fights</li>
-      <li>Vuelos baratos</li>
-      <li>vol pas cher</li>
-      <li>voli low cost</li>
-    </ul>
-
-    <ul>
-      <li>voli low cost</li>
-      <li>lig flygresor</li>
-      <li>Goedkope vliegtickets</li>
-      <li>Voos baratos</li>
-      <li>Adipisicing</li>
-      <li>Flygresor</li>
-    </ul>
-
-
-  </section>
-  <!-- /Bottom Section End -->
+        <p>
+          About Us Jobs Press Affiliate Terms of Use Privacy Policy Cookies Airlines Apps Help momondo.co.uk is a free,
+        </p>
+      </div>
+      <div class="social">
+        <ul>
+          <li>
+            <a href="javascript:void()">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void()">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void()">
+              <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section End -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
   <script src="./assets/js/index.js"></script>
 </body>
